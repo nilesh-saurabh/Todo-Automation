@@ -1,0 +1,5 @@
+{
+    "env": {
+      "TodoMvc": "https://todomvc.com/examples/angular2/"
+      }
+  }

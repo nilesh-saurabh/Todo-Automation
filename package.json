@@ -1,0 +1,17 @@
+{
+  "name": "todo-automation",
+  "version": "1.0.0",
+  "description": "Test Assesment",
+  "main": "index.js",
+  "scripts": {
+    "cy-open": "cypress open",
+    "test-chrome-ToDoTest": "cypress run --spec cypress/integration/ToDoTest.js -b chrome --headless -r mochawesome --reporter-options reportDir=cypress/test_reports,reportFilename=ToDoTest-TestResults"
+  },
+  "author": "Nilesh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "7.0.1",
+    "mocha": "^7.1.1",
+    "mochawesome": "^6.1.0"
+  }
+}

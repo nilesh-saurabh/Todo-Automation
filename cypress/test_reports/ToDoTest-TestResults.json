@@ -1,0 +1,160 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-15T13:37:37.381Z",
+    "end": "2021-04-15T13:37:41.492Z",
+    "duration": 4111,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5b7ca44f-a5d5-4584-af48-fbfadff2186b",
+      "title": "",
+      "fullFile": "cypress\\integration\\ToDoTest.js",
+      "file": "cypress\\integration\\ToDoTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "facc8722-3cca-45fc-89f5-90ee2bf3a2cb",
+          "title": "New To-Do Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Task 1",
+              "fullTitle": "New To-Do Test Task 1",
+              "timedOut": null,
+              "duration": 1804,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.visit_homepage();\nobjhomepage.create_todo(this.data.create_to_do);",
+              "err": {},
+              "uuid": "6b0252f4-ad35-4996-abef-8891a29c4f4d",
+              "parentUUID": "facc8722-3cca-45fc-89f5-90ee2bf3a2cb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Task 2",
+              "fullTitle": "New To-Do Test Task 2",
+              "timedOut": null,
+              "duration": 367,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.edit_todo(this.data.edit_to_do);",
+              "err": {},
+              "uuid": "fbdcb006-46b5-4c06-a4bb-0b0923773601",
+              "parentUUID": "facc8722-3cca-45fc-89f5-90ee2bf3a2cb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Task 3",
+              "fullTitle": "New To-Do Test Task 3",
+              "timedOut": null,
+              "duration": 141,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.complete_todo();",
+              "err": {},
+              "uuid": "7624722a-74af-4124-99e5-7f5f1a8241d7",
+              "parentUUID": "facc8722-3cca-45fc-89f5-90ee2bf3a2cb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Task 4",
+              "fullTitle": "New To-Do Test Task 4",
+              "timedOut": null,
+              "duration": 109,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.delete_todo();",
+              "err": {},
+              "uuid": "66008b6a-7153-45e6-a788-a610e5376127",
+              "parentUUID": "facc8722-3cca-45fc-89f5-90ee2bf3a2cb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6b0252f4-ad35-4996-abef-8891a29c4f4d",
+            "fbdcb006-46b5-4c06-a4bb-0b0923773601",
+            "7624722a-74af-4124-99e5-7f5f1a8241d7",
+            "66008b6a-7153-45e6-a788-a610e5376127"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2421,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "ToDoTest-TestResults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/test_reports",
+        "reportFilename": "ToDoTest-TestResults"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
